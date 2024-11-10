@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+Brisphere Ladakh Room Booking Website
+Welcome to the Ladakh Room Booking Website! This is a simple yet elegant web application built with React.js that allows users to book rooms in Ladakh. It offers an easy-to-use interface with a form where users can input their details and book a room for their stay in this beautiful region.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Caption: "Work from Ladakh"
 
-## Available Scripts
+Features
+User-Friendly Interface: Clean, intuitive design for easy room bookings.
+Room Booking Form: A form that captures essential booking details including:
+Name
+Email
+Phone number
+Number of adults and children
+Check-in and Check-out dates
+Location Focused: Specifically designed for room bookings in Ladakh, showcasing the stunning beauty and tranquil surroundings of the region.
+Tech Stack
+React.js: Frontend framework to build the interactive UI.
+React Router: For navigation between pages.
+TalwindCSS: For styling the application and making it mobile-responsive.
+Redux: For state management to avoid prop drilling.
+Installation
+Prerequisites
+Make sure you have Node.js and npm installed on your system.
 
-In the project directory, you can run:
+Clone the repository:
 
-### `npm start`
+git clone https://github.com/sairam-balla/Brisphere.git
+Navigate into the project directory:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+cd Brisphere
+Install the dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm install
+Running the Application
+To start the development server and view the app in your browser:
 
-### `npm test`
+Run the application:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm start
+Open your browser and visit http://localhost:5173 to see the website in action.
 
-### `npm run build`
+How to Use
+Landing Page: Upon visiting the website, you’ll be welcomed with a beautiful landing page that showcases the essence of Ladakh, with the option to proceed to the booking form.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Booking Form:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Name: Enter your full name.
+Email: Provide a valid email address for communication.
+Phone Number: Enter your contact number.
+Number of Adults and Children: Specify the number of guests in each category.
+Check-in and Check-out Dates: Select your preferred check-in and check-out dates from the calendar.
+Submit the Form: After entering your details, submit the form to proceed with the booking.
